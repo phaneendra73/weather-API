@@ -33,14 +33,14 @@
         console.log(obj);
         document.getElementById('weather').innerHTML=obj.weather[0].description;
         document.getElementById('location').innerHTML=obj.name;
-        document.getElementById('temp').innerHTML=obj.main.temp-273.15;
+        document.getElementById('temp').innerHTML=Math.round(obj.main.temp-273.15);
         document.getElementById('icon').src="https://api.openweathermap.org/img/w/"+ obj.weather[0].icon+".png"
     }
     if(request.status>=200 && request.status<400){
  var temp=obj.main.temp;
     }
     else{
-        console.log("this city is not avalianle")
+        console.log("this city is not avaliable")
     }
     request.send();
 </script>

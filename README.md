@@ -1,4 +1,4 @@
-weather-API
+#weather-API
  I recently built a weather API website using HTML, CSS, and JavaScript. The website show my home town current weather conditions. I used the OpenWeatherMap API to get the weather data.
  
  ![weather api](https://github.com/phaneendra73/weather-API/assets/118047850/f9e98f0c-a63e-4ce5-a4f5-2d9a1da9527d)
